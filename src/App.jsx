@@ -22,7 +22,7 @@ function Login({onSuccess}){
       <div style={{background:'white', border:'2px solid #d9e8d9', borderRadius:20, padding:32, width:'100%', maxWidth:400, boxShadow:'0 8px 32px rgba(22,163,74,.15)'}}>
         <div style={{width:48,height:48,background:'#0f2e1d',borderRadius:12,display:'grid',placeItems:'center',color:'white',fontSize:20,marginBottom:16}}>✦</div>
         <h1 style={{fontFamily:'Instrument Serif', fontSize:28, margin:'0 0 6px'}}>Todo  + Insights</h1>
-        <p style={{color:'#6a8a6a', fontSize:13, margin:'0 0 24px'}}>Protected • Enter password to continue</p>
+        <p style={{color:'#6a8a6a', fontSize:13, margin:'0 0 24px'}}>Protected • Enter password to continue -- Showmethexxxx!</p>
         <input type="password" value={pw} onChange={e=>setPw(e.target.value)} onKeyDown={e=>e.key==='Enter'&&submit()} placeholder="Password" style={{width:'100%', padding:'13px 14px', border:'2px solid #d9e8d9', borderRadius:12, fontSize:15, outline:'none'}} autoFocus />
         {err && <div style={{color:'#dc2626', fontSize:12, marginTop:8, background:'#fee2e2', padding:'6px 10px', borderRadius:8}}>{err}</div>}
         <button onClick={submit} style={{width:'100%', marginTop:12, padding:'12px', borderRadius:12, border:'none', background:'#0f2e1d', color:'white', fontWeight:700, cursor:'pointer', fontSize:14}}>Unlock</button>
